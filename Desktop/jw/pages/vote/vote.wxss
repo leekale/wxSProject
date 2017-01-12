@@ -1,0 +1,81 @@
+.banner {
+  background-color: #ccc;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #f90;
+  background-color: #6ff;
+}
+
+.intro {
+  background-color: #9cf;
+  line-height: 20px;
+  padding: 20px;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+}
+
+.join {
+  position: fixed;
+  padding-left: 2%;
+  right: 0;
+  height: 10%;
+  width: 13%;
+  background-color: #0cf;
+  color: #f93;
+  bottom: 10%;
+  z-index: 100;
+}
+
+.wrap {
+  background-color: #ccc;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-width: 7em;
+  -webkit-column-width: 7em;
+  column-width:7em;
+  -moz-column-gap:1px;
+  -webkit-column-gap: 1px;
+  column-gap: 1px;
+}
+
+.photo-box {
+padding: 2px;
+  -moz-page-break-inside: avoid;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  background: white;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+  width: 100%;
+}
+
+.photo-box img {
+  width: 100%;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.text-box {
+  position: absolute;
+  left: 2px;
+  bottom: 6px;
+}
+.vote-button {
+  position: absolute;
+  margin-top: 2px;
+  padding-top: 8px;
+  background-color: #f00;
+  font-size: 80%;
+  width: 25%;
+  height: 10%;
+  z-index: 3;
+  right: 0;
+  top: 0;
+}

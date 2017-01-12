@@ -1,0 +1,19 @@
+<view class="banner">
+  <view class="title">梦之星少儿明星，开始啦！</view>
+  <view class="intro">山西晋维体育文化传播有限公司携手山西电视台新媒体中心组织的“梦之星少儿明星赛”评选活动开始报名了，只需发送一张宝贝的萌照就可以参赛超过100票可过得2017年鸡年纪念币，超过200票可获得荣誉证书一本，还有智能手表、电子琴,儿童书包等大奖，更有机会参加少儿春晚，机会非常难得！希望家长们找我踊跃为宝贝报名，这对宝贝很有意义哦无任何费用，男女宝贝都可报名12岁以下均可！需要最好是游泳的照片，没有的话可以发运动的照片，谢谢各位</view>
+  <view>
+  </view>
+  <navigator url="../upload/upload" class="join">点击参加评选</navigator>
+</view>
+<view class="wrap">
+  <view class="photo-box" wx:for="{{member}}">
+    <image class="photo" style="width:100%" src="http://www.sxjwty.com/wx/images/{{item.photo}}" mode="widthFix"></image>
+    <view bindtap="vote" data-number="{{item.id}}" class="vote-button">投一票</view>
+    <view class="text-box">
+      <view class="player">{{item.name}}</view>
+      <view class="sum">票数:
+        <text class="vote-num">{{item.sum}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,65 @@
+/* pages/upload/upload.wxss */
+
+page {
+  height: 100%;
+}
+
+.xd-container {
+  position: relative;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+.xd-container image {
+  width: 100%;
+}
+
+.xd-img-user1 {
+  background-image: url("../../icon/upload.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.xd-view-section {
+    height: 6%;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin: 20px 0 10px 0;
+  padding: 24px 0 10px 0;
+  position: relative;
+}
+
+.xd-view-section1 {
+height: 6%;
+  border-bottom: 1px solid #aaa;
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
+  position: relative;
+}
+
+.xd-text-nick {
+    font-size: 114%;
+  width: 25%;
+  margin-left: 4%;
+  padding-left: 1%;
+}
+
+.xd-abs {
+  position: absolute;
+}
+
+.xd-input {
+    margin-left: 44%;
+}
+.xd-radio-group{
+    margin-left: 35%;
+}
+.xd-flex-left {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.xd-subBtn {
+    width: 100%;
+    bottom: 1px;
+}
